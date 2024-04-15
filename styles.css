@@ -1,0 +1,232 @@
+header {
+    content: '';
+    display: table;
+    clear: both;
+    background: #ffffff;
+   
+width: 100% ;
+border-bottom: solid thin blue;
+background-color:rgb(255, 255, 255);
+height: 110px;
+position: relative;
+
+}
+header{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header img{
+    width: 400px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+nav1{ 
+    
+    height: 30px;
+width: 100% ;
+
+}
+
+nav1 ul  {
+    float: right;
+    margin: 20px;
+}
+
+nav1 ul li{
+    display : inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+}
+
+nav1 ul li a{
+    color: rgba(47, 119, 182, 0.956);
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover{
+    background:hwb(223 19% 28% / 0.867) ;
+    transition: .5s;
+    color: rgba(255, 255, 255, 0.956);
+}
+.LOGO {
+    margin: 20px;
+    color:aqua
+}
+
+footer img{
+    background-color:#0502a0;
+    position: absolute;
+    top: auto;
+    right: 0;
+    width: 105px;
+    height: auto;
+}
+
+footer p{
+    background-color:#0502a0;
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    padding-left: 30px;
+}
+
+body {
+    background-image: url(_images\logo2.jpg);
+    text-align: center;
+    
+  }
+  
+  h1,h2 {
+    color:rgb(4, 124, 193);
+    text-align: center;
+    
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+  .content{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+    width: fixed;
+    height: fixed;
+    padding: 4px;
+    background-color: #23b7e9;
+    
+  }
+  .first_part,img{
+    border-radius: 8px;
+   background-color: DodgerBlue;
+    height: fixed;
+
+  }
+  
+  button {
+    background-color: #23b7e9; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .login{
+    print-color-adjust: blue;
+    border-radius: 8px;
+   background-color: DodgerBlue;
+    height: fixed;
+    margin: auto;
+    width: 5cm;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.p {
+    color: aqua;
+}  
+}
+
+mark{
+    background-color: #23b7e9;
+    color: antiquewhite;
+}
+.content1{
+    background-image: url(_images\logo2.jpg);
+}
+
+************
+ {
+    box-sizing: border-box;
+    height: 500px;
+    width :50%
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -80px;
+    color: rgb(10, 175, 167);
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+   
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    
+    border-radius: 3px 0 0 3px;
+  }
+  .prev{
+    left:0;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(10, 79, 82, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #030708;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #19ccef;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
